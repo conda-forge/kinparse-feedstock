@@ -1,5 +1,5 @@
 {% set name = "kinparse" %}
-{% set version = "0.1.2" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 01b58c997169649988a9a33392fd7e0a6afd40b288643dc6de1ba685d289bab7
+  sha256: 594240585ca87c1f9abde65ef9c53ced2fa7ed7fe076fb9812f8d384f95e0a51
 
 build:
-  noarch : python
+  noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - kinparse = kinparse.__main__:main
 
@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'This is a parser for KiCad schematic netlist files that are output by EESCHEMA'
+  summary: This is a parser for KiCad schematic netlist files that are output by EESCHEMA
 
 extra:
   recipe-maintainers:
