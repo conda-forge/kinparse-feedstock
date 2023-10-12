@@ -1,11 +1,11 @@
-About kinparse
-==============
+About kinparse-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kinparse-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/xesscorp/kinparse
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kinparse-feedstock/blob/main/LICENSE.txt)
 
 Summary: This is a parser for KiCad schematic netlist files that are output by EESCHEMA
 
