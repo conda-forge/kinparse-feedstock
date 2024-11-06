@@ -1,5 +1,5 @@
 {% set name = "kinparse" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 00c03b174095fce23cec1fed2eeecb56afab27a31ae599b0254901bf206bb5c8
+  sha256: a4163c8a7cc1520779fdf98aaf67a6e5a3b9970a057e4926aa0ba63fc643a2c1
 
 build:
   noarch: python
