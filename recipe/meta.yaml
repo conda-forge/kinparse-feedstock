@@ -1,13 +1,13 @@
 {% set name = "kinparse" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 00c03b174095fce23cec1fed2eeecb56afab27a31ae599b0254901bf206bb5c8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 22822f7cf7c8389916eb1a838c4f1c2116a7e3860bf07af1e3fef79256324a60
 
 build:
   noarch: python
